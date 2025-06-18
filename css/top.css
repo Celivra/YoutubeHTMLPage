@@ -1,0 +1,109 @@
+.avater{
+    margin-left: 10px;
+}
+.avater img{
+    border-radius: 20px;
+    height: 32px;
+    width: 32px;
+}
+.notify{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.notify:hover{
+    background-color: #ddd;
+}
+.upload{
+    width: 84px;
+    height: 36px;
+    border-radius: 20px;
+    background-color:#eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload:hover{
+    background-color: #ddd;
+}
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:#eeeeee;
+    margin-left: 15px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice:hover{
+    background-color: #d1d1d1;
+}
+.searchbox{
+    width: 536px;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid #c6c6c6;
+    padding: 0 4px 0 16px;
+    font-size: 18px;
+}
+.searchbutton{
+    width: 64px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0 40px 40px 0;
+    background-color:#f5f5f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbutton:hover{
+    background-color:#e9e9e9 ;
+}
+.logo{
+    width: 93px;
+    height: 20pxl;
+    padding: 18px 14px 18px 16px;
+}
+.nav-switch{
+    width: 24px; 
+    height: 24px; 
+    display: block; 
+    fill: currentcolor;
+    padding: 8px;
+}
+.nav-switch:hover{
+    background-color: #e2e2e2;
+    border-radius: 30px;
+}
+.top-1{
+    width: 169px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+.top-2{
+    width: 732px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.top-3{
+    width: 225px;
+    height: 56px;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: end;
+}
+.top{
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+}
