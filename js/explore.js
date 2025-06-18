@@ -39,7 +39,7 @@ const navTop_container = document.getElementById('nav-top-list');
 const navProfile_container = document.getElementById('nav-profile-list');
 const e_container = document.getElementById('exploreList');
 
-let selectedIndex = null;
+let selectedIndex = 0
 function renderNavTopList(){
   navTop_container.innerHTML = '';
   navProfile_container.innerHTML = '';
