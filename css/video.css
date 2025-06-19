@@ -1,4 +1,59 @@
+.video-dot{
+    padding: 5px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.video-dot:active{
+    background-color: #f0f0f0;
+}
+.video-info{
+    width: 500px;
+    height: 75px;
+}
+.video-info div:nth-child(1){
+    font-weight: 600;
+    font-family: "Roboto","Arial",sans-serif;
+}
+.video-info div:nth-child(2){
+    color: #606060;
+}
+.video-info div:nth-child(3){
+    color: #606060;
+}
+.video-card{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 10px;
+}
+.video-avater > img{
+    width: 36px;
+    height: 36px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.video-item > img{
+    width: 507px;
+    height: 285px;
+    border-radius: 20px;
+}
+.video-item{
+    width: 506px;
+    height: 385px;
+    margin: 0px 8px 32px 8px;
+}
+.video-list{
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100vh;
+}
+.video-list > div{
+    float: left;
+}
 .video-nav{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
     height: 56px;
     width: 1553px;
     padding: 0px 24px;
