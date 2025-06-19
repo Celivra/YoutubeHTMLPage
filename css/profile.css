@@ -1,0 +1,24 @@
+.profile-avater{
+    width: 160px;
+    height: 160px;
+}
+.profile-avater > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+}
+.profile-banner{
+    width: 1284px;
+    height:206px;
+    padding: 0px 158px;
+}
+.profile-banner > img{
+    width: 1284px;
+    height: 206px;
+    border-radius: 18px;
+}
+.profile-info{
+    width: 1284px;
+    height: 160px;
+    padding: 16px 158px 4px 158px;
+}
