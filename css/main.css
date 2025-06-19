@@ -36,3 +36,7 @@ html, body {
     flex: 1;
     overflow-y: auto;
 }
+.profile-main{
+    flex: 1;
+    overflow-y: auto;
+}
