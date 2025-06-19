@@ -65,8 +65,7 @@ function renderNavTopList(){
       <div style = "width:24px; height:24px;">${svgToDisplay}</div>
       ${item.name} `;
       div2.addEventListener('click', ()=>{
-        selectedIndex = index;
-        renderNavTopList();
+        window.location.href = 'index.html'
       })
       navProfile_container.appendChild(div2);
     }else {
@@ -76,8 +75,7 @@ function renderNavTopList(){
       <div style="width:24px; height:24px;">${svgToDisplay}</div>
       ${item.name} `;
       div3.addEventListener('click', ()=>{
-        selectedIndex = index;
-        renderNavTopList();
+        window.location.href = 'index.html'
       })
       e_container.appendChild(div3);
     }
