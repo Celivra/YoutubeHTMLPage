@@ -36,6 +36,11 @@ html, body {
     flex: 1;
     overflow-y: auto;
 }
+.search-video{
+    flex: 1;
+    overflow-y: auto;
+    margin: 0px 151.5px;
+}
 .profile-main{
     flex: 1;
     overflow-y: auto;
