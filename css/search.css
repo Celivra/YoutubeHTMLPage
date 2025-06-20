@@ -41,6 +41,7 @@
     width: 1250px;
     height: 280.5px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 .s-video-info > div:nth-child(1){

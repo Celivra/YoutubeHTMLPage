@@ -9,6 +9,35 @@ searchVideoData = [
     {url:'images/search/3.avif', avater:'images/search/a3.jpg', title:'What is Unix and why does it matter? Operating System OS Explained, History, Unix vs Linux, etc.', author:'TeXplaiNIT', watch:'觀看次數：7.8萬次 3 年前', desc:'Learn about Unix, get a basic overview, its history, how it relates to today, and more! This channel is dedicated to explaining ...'},
     {url:'images/search/4.avif', avater:'images/search/a4.jpg', title:'Unix Pipeline (Brian Kernighan) - Computerphile', author:' Computerphile ', watch:'觀看次數：22萬次 9 年前', desc:'Just what is a pipeline in the computer science sense? We asked Computer Science guru Professor Brian Kernighan Why ...'},
 ]
+
+const searchVideoContainer = document.getElementContainer = document.getElementById('video-cards');
+function loadsearchVideo(){
+    searchVideoData.forEach((item)=>{
+        let div = document.createElement('div');
+        div.className = 'search-item';
+        div.innerHTML = `
+        <div style="width: 500px; height: 280.5; margin-right: 16px;">
+            <img style="width: 500px; height: 280.5; border-radius: 10px;" src="${item.url}"/>
+        </div>
+        <div class="s-video-info">
+            <div>
+                <div class="s-video-title">${item.title}</div>
+                <div class="s-video-dot"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg></div>
+            </div>
+            <div class="s-video-watch">${item.watch}</div>
+            <div>
+                <div class="s-video-avater"><img style="width: 24px; height: 24px;" src="${item.avater}"></div>
+                <div class="s-video-author">${item.author}</div>
+            </div>
+            <div class="s-video-desc">${item.desc}</div>
+        </div>
+        `;
+        searchVideoContainer.appendChild(div);
+    })
+}
+loadsearchVideo();
+
+
 const videoNavContainer = document.getElementById('search-video-nav');
 let videoSelectIndex = 0;
 function videoNavRefresh(){
