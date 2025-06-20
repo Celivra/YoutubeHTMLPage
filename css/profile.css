@@ -1,11 +1,12 @@
 .recommand-video{
     display: flex;
+    overflow-x: auto;
 }
 .recommand-video > div{
     margin-right: 5px;
 }
 .profile-recommand{
-    width: 1284px;
+    width: 95%;
     height: 238px;
     padding: 24px 0px;
 }

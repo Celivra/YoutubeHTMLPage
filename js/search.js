@@ -3,6 +3,12 @@ videoNavData = [
     {name:'未观看'}, {name:'已观看'}, {name:'最新上传'}, {name:'直播'},
     {name:'4分钟内'}, {name:'4到20分钟'}, {name:'20分钟以上'},
 ];
+searchVideoData = [
+    {url:'images/search/1.avif', avater:'images/search/a1.jpg', title:'Unix vs Linux', author:'Gary Explains', watch:'觀看次數：170萬次 7 年前 ', desc:'#garyexplains Affiliate Disclosure: When you buy through links in our description Gary Explains may earn an affiliate commission.'},
+    {url:'images/search/2.avif', avater:'images/search/a2.jpg', title:'The Rise of Unix. The Seeds of its Fall.', author:'Asianometry', watch:'觀看次數：9.3萬次 2 年前 ', desc:'Notes: - I want to thank viewer Lance for pointing out that NeXTSTEP derives from Mach, the CMU variant of BSD. I will mention ...'},
+    {url:'images/search/3.avif', avater:'images/search/a3.jpg', title:'What is Unix and why does it matter? Operating System OS Explained, History, Unix vs Linux, etc.', author:'TeXplaiNIT', watch:'觀看次數：7.8萬次 3 年前', desc:'Learn about Unix, get a basic overview, its history, how it relates to today, and more! This channel is dedicated to explaining ...'},
+    {url:'images/search/4.avif', avater:'images/search/a4.jpg', title:'Unix Pipeline (Brian Kernighan) - Computerphile', author:' Computerphile ', watch:'觀看次數：22萬次 9 年前', desc:'Just what is a pipeline in the computer science sense? We asked Computer Science guru Professor Brian Kernighan Why ...'},
+]
 const videoNavContainer = document.getElementById('search-video-nav');
 let videoSelectIndex = 0;
 function videoNavRefresh(){

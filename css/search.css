@@ -3,7 +3,6 @@
     position: fixed;
     height: 56px;
     width: 1553px;
-    padding: 0px 24px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -13,7 +12,7 @@
     height: 32px;
     background-color: #eee;
     padding: 0px 12px;
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 14px;
     line-height: 32px;
     border-radius: 10px;
@@ -34,4 +33,51 @@
 }
 .search-filter:active{
     background-color: #e0e0e0;
+}
+.video-cards{
+    margin-top: 60px;
+}
+.search-item{
+    width: 1250px;
+    height: 280.5px;
+    display: flex;
+}
+
+.s-video-info > div:nth-child(1){
+    display: flex; 
+    justify-content:space-between; 
+    width: 734px;
+}
+.s-video-info > div:nth-child(3){
+    display: flex; 
+    height: 26px;
+    padding: 12px 0px;
+}
+.s-video-title{
+    display: flex; 
+    align-items: center; 
+    font-size: 18px;
+}
+.s-video-dot{
+    width: 24px; 
+    height: 24px; 
+    display: block; 
+    fill: currentcolor;
+    padding: 6px;
+    border-radius: 40px;
+}
+.s-video-dot:hover{
+    background-color: #f0f0f0;
+}
+.s-video-watch{
+color: #606060; font-size: 12px;
+}
+.s-video-avater{
+display: flex; align-items: center;
+}
+.s-video-author{
+color: #606060; font-size: 12px; display: flex; align-items: center; margin-left: 10px;
+}
+.s-video-desc{
+color: #606060; font-size: 12px;
 }
