@@ -32,6 +32,12 @@ html, body {
 .nav-3{
     border-top: 1px solid #f0f0f0;
 }
+.nav-4{
+    border-top: 1px solid #f0f0f0;
+}
+.nav-5{
+    border-top: 1px solid #f0f0f0;
+}
 .video{
     flex: 1;
     overflow-y: auto;
