@@ -5,7 +5,7 @@ settingData = [
     {name:'隐私权', jump:'settings.html'},
     {name:'已连接的应用程序', jump:'settings.html'},
     {name:'账单预付款', jump:'settings.html'},
-    {name:'进阶设定1', jump:'settings.html'},
+    {name:'进阶设定', jump:'settings.html'},
 ]
 const setting_container = document.getElementById('setting-navlist');
 let settinghtml = '';
