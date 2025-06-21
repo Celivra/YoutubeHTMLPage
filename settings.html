@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/item.css" />
+    <link rel="stylesheet" href="css/top.css" />
+    <link rel="stylesheet" href="css/setting.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>YouTube</title> 
+</head>
+<body>
+  <div class="page">
+    <div class="top"> 
+        <div class="top-1">
+            <div class="nav-switch"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg></div>
+            <img onclick="window.location.href='index.html'" class="logo" src="images/logo.png" />
+        </div>
+        <div class="top-2">
+            <input class="searchbox" type="text" placeholder="搜索"/>
+            <button onclick="window.location.href='search.html'" class="searchbutton">
+                <div style="width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"></path></svg></div>
+            </button>
+            <div class="voice">
+                <div style="width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg></div>
+            </div>
+        </div>
+        <div class="top-3">
+            <div class="upload">
+                <div style="width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M20 12h-8v8h-1v-8H3v-1h8V3h1v8h8v1z"></path></svg></div>
+                <div>建立</div>
+            </div>
+            <div class="notify">
+                <div style="width: 24px; height: 24px; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path clip-rule="evenodd" d="m13.497 4.898.053.8.694.4C15.596 6.878 16.5 8.334 16.5 10v2.892c0 .997.27 1.975.784 2.83L18.35 17.5H5.649l1.067-1.778c.513-.855.784-1.833.784-2.83V10c0-1.666.904-3.122 2.256-3.902l.694-.4.053-.8c.052-.78.703-1.398 1.497-1.398.794 0 1.445.618 1.497 1.398ZM6 10c0-2.224 1.21-4.165 3.007-5.201C9.11 3.236 10.41 2 12 2c1.59 0 2.89 1.236 2.993 2.799C16.79 5.835 18 7.776 18 10v2.892c0 .725.197 1.436.57 2.058l1.521 2.535c.4.667-.08 1.515-.857 1.515H15c0 .796-.316 1.559-.879 2.121-.562.563-1.325.879-2.121.879s-1.559-.316-2.121-.879C9.316 20.56 9 19.796 9 19H4.766c-.777 0-1.257-.848-.857-1.515L5.43 14.95c.373-.622.57-1.333.57-2.058V10Zm4.5 9c0 .398.158.78.44 1.06.28.282.662.44 1.06.44s.78-.158 1.06-.44c.282-.28.44-.662.44-1.06h-3Z" fill-rule="evenodd"></path></svg></div>
+            </div>
+            <div onclick="window.location.href='profile.html'" class="avater">
+                <img src="images/avater.png">
+            </div>
+        </div>
+    </div>
+    <div class="main-layout">
+      <div class="nav">
+        <!-- 导航项 -->
+        <div style="padding: 18px 0px;">
+            <div style="font-size: 20px; color: #606060; font-weight: 600; padding-left: 24px; padding-bottom: 20px; ">设定</div>
+            <div id="setting-navlist">
+            </div>
+        </div>
+      </div>
+      <div class="setting">
+        <div class="setting-content">
+            <div>
+                <div style="width: 465px; height: 156px;">
+                    <div style="font-size: 16px;">账户</div>
+                    <div style="font-size: 24px; margin-top: 40px; margin-bottom: 12px;">选择YouTube的显示方式和偏好的版面配置</div>
+                    <div style="font-size: 14px; color: #606060;">以52xiaozhai@gmail.com的身份登入</div>
+                </div>
+                <div style="width: 180px; height: 180px;">
+                    <svg fill="none" fill-rule="evenodd" viewBox="0 0 155 155" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"> <path d="M3.9 76.2C3.9 37.9 32.7 13 68.3 13c39.1 0 65.4 27.6 64.4 63.2 0 3.1-.3 6.2-.7 9.2-.7 4.8-6.2 8-7.8 12.4-1.8 5 .2 11-2.7 15.4a59.7 59.7 0 0 1-18.6 17.7c-9.6 5.9-21.6 4-35 4.3-12.7.4-24 2.9-33.8-2.7-18.5-10.6-30.2-30.9-30.2-56.3" fill="#EEE"></path> <path d="M78.7 92.5c14.1-6.8 5.6-21 1.4-26.3 4.3 3.2 7.6 1.6 9.2.3 1.7-1.3 2.6-5-.9-8-3.4-3-13.9-13.5-21.6-20.8-.3-.2-18.6-1.7-28.2 8.3-8.6 8.9-14.4 33.2-14.4 33.2 16.1 23.5 11.9 35 5.6 44.5 10.7 7.7 49-6.6 48-7.6-9.1-8.1-10.2-18.3.9-23.6" fill="#FF76DA"></path> <g transform="translate(28 115.7)"> <mask fill="#fff"> <path d="M1 .4h74V25H1z"></path> </mask> <path d="M40.3 25c8.7-.3 16.8-1.9 24-4.6 1.7-.6 1-1.4 2.7-2.2 1.4-.6 5.2-1.3 6.5-2.1l1.4-.9c-2.2-1-5.7-2.7-9.5-4.8-1.2-.6-4.1-.9-5.4-1.6-1.3-.7-.9-2-2.2-2.7a100.6 100.6 0 0 1-8-5.7H6.3c-1 5.3-3 9.7-5.3 13.1 1.2 1 2.5 1.8 3.9 2.6s5.3 1.4 6.8 2.1c1.4.7.4 1.6 1.8 2.2 8 3.3 17.1 4.9 26.8 4.6" fill="#00D4B5" mask="url(#b_yt530)"></path> </g> <path d="M32.9 131.8a59 59 0 0 0 8.6 4.3h50.7c3.3-1.2 6.4-2.7 9.3-4.3H32.9zM37.6 126h55.8c-2.5-1.2-5-2.7-7.6-4.2H37.6v4.3z" fill="#FFF"></path> <path d="M46.4 55c14.1 1.7 14.1 14.3 14.1 14.3L55 74s-2.3-3.3-7.8-2.1c2.2 1.3 3.7 3.2 4.8 5.3 2.6 5.1 2.1 13-6 16.4-3 1.2-7 4-7.3 8.3-.4 6.5 4.6 10 11.6 8.7 2 9-6.2 24.8-26.9 22.5a22.9 22.9 0 0 1-18-32.7c5.4-11.8 22.4-14.7 18.9-21L46.4 55z" fill="#4620AE"></path> <path d="M56.1 32a31 31 0 0 0-27 9.3C22.7 47.9 17.2 57 19 67.7c.8 3.7 40.7-35 37-35.7" fill="#00D4B5"></path> <path d="M14.3 35c0-5.2 4-8.5 8.7-8.5 5.3 0 8.9 3.7 8.7 8.5a8.6 8.6 0 0 1-8.7 8.7c-5 .1-8.7-3.5-8.7-8.7" fill="red"></path> <path d="M73.9 72.5c-2.8-1.3-6-1-6.8 2.3-.6 2.2.3 5.8 4.8 7.4a27.9 27.9 0 0 0 14.4 1.3c.6-3.1-.2-6.4-1.4-9.4-2.7.4-6.8.4-11-1.6" fill="#FFF"></path> <path d="M104.6 46H75.7c-3.6 0-5 2-5 5 0 2.9.7 5.7 4.6 5.7h30.3l-1-10.7z" fill="#4620AE"></path> <path d="M137.8 42.6h-29c-5.8 0-8.3 3.3-8.3 8 0 4.8 2.3 9.4 7.8 9.4h28.4l1.1-17.4z" fill="#4620AE"></path> <path d="M101.3 57.8a.8.8 0 0 1-.6-.4 13 13 0 0 1-1.2-6.5c0-.4.4-.7.8-.7s.7.4.7.8c-.2 1.9.2 4.3 1 5.7a.8.8 0 0 1-.7 1.1" fill="#9A4DFF"></path> <path d="M131 51.2c0-6.9 4.8-11.4 10.7-11.4 6.4 0 10.8 5 10.6 11.4-.2 6.6-4.2 11.5-10.6 11.7-6.1.2-10.6-4.6-10.6-11.7" fill="red"></path> <path d="M136.1 51.3c0-3.7 2.5-6 5.6-6 3.4 0 5.7 2.6 5.6 6-.1 3.4-2.3 6-5.6 6.1-3.2.1-5.6-2.4-5.6-6.1" fill="#FFF"></path> <path d="M124.4 66c.7-5.9 0-10.4-3.3-10.8-3.4-.4-4.5 4-4.5 4s.2-4.5-3-5c-3.2-.4-4.6 4.4-4.6 4.4s.9-4.7-3.6-4.3c-4.5.3-9.2 11.5-7.2 28.3a38.3 38.3 0 0 0 23.3 30.6c5.4-8 9-17.5 10.4-27.8-5.5-3.5-8.3-12.3-7.5-19.5" fill="#FF76DA"></path> <path d="M107 71.7a.8.8 0 0 1-.7-.8c0-2.6.7-7.8 1.4-10.7 0-.4.5-.7.9-.6.4 0 .6.5.5.9-.7 3.2-1.3 8.1-1.3 10.4 0 .4-.3.8-.7.8M114.8 71.7a.8.8 0 0 1-.7-.8c0-2.6.7-7.8 1.3-10.7.1-.4.5-.7 1-.6.3 0 .6.5.5.9-.7 3.2-1.3 8.1-1.3 10.4 0 .4-.4.8-.8.8" fill="#4620AE"></path> <path d="M66.8 37.7l-.7-.6a20.2 20.2 0 0 0-10-5L19.2 67.6c.7 3.7 2.3 7.5 5 11.5l42.6-41.5z" fill="red"></path> <path d="M48.6 55.4C59.1 53 71.6 45 66.8 37.7L48.6 55.4z" fill="#4620AE"></path> </svg>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 20px; font-weight: 600; padding-top:24px; padding-bottom: 8px;">您的 YouTube 频道</div>
+                <div style="font-size: 12px; color: #606060;">这是你在 YouTube 上的公开身分。你必须建立频道才能上传自己的影片、对影片发表留言或建立播放清单。</div>
+            </div>
+            <div>
+                <div style="width: 130px; height: 160px; margin-right: 56px;">你的频道</div>
+                <div>
+                    <div style=" display: flex; align-items: center;margin-top: 4px; margin-bottom: 20px;">
+                        <img style="border-radius: 50px; width: 50px; height: 50px; margin-right: 20px;" src="images/avater.png" />
+                        <div>澄翎Celivra</div>
+                    </div>
+                    <div class="setting-link">频道状态和功能</div>
+                    <div class="setting-link">建立新频道</div>
+                    <div class="setting-link">查看进阶设定</div>
+                </div>
+            </div>
+            <div>
+                <div style="padding-top: 24px; padding-bottom: 8px; font-size: 24px; font-weight: 700;">您的账户</div>
+                <div style="font-size: 12px; color: #606060;">你是使用自己的Google帐户登入YouTube</div>
+            </div>
+            <div>
+                <div>Google账户</div>
+                <div>
+                    <div>查看或变更</div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/setting.js"/></script>
+</body>
+</html>
