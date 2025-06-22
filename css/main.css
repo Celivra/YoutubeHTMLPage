@@ -47,6 +47,10 @@ html, body {
     flex: 1;
     overflow-y: auto;
 }
+.play-box{
+    flex: 1;
+    overflow-y: auto;
+}
 .search-video{
     flex: 1;
     overflow-y: auto;
