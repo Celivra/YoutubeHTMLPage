@@ -6,11 +6,11 @@ videoNavData = [
 ];
 videoData=[
     {jump:'play.html',avater:'images/videoavater/1.jpg', banner:'images/videobanner/1.avif', title:'Animation vs. YouTube (original)', author:'Alan Beckerk', info:'观看次数：1.2亿次 · 1 年前'},
-    {jump:'play.html',avater:'images/videoavater/2.jpg', banner:'images/videobanner/2.avif', title:'Linux is Better Than Mac And Windows', author:'The Linux Cast', info:'观看次数：2535次 · 6 小时前'},
+    {jump:'play2.html',avater:'images/videoavater/2.jpg', banner:'images/videobanner/2.avif', title:'Linux is Better Than Mac And Windows', author:'The Linux Cast', info:'观看次数：2535次 · 6 小时前'},
     {jump:'play.html',avater:'images/videoavater/3.jpg', banner:'images/videobanner/3.avif', title:'How Linux killed Unix: the UNIX Wars', author:'The Linux Experiment', info:'观看次数：32万次 · 2 年前'},
-    {jump:'play.html',avater:'images/videoavater/4.jpg', banner:'images/videobanner/4.avif', title:'Oiiaioooooiai Hachiware', author:'呼吸菌QAQ', info:'观看次数：43万次 · 4 个月前'},
+    {jump:'play2.html',avater:'images/videoavater/4.jpg', banner:'images/videobanner/4.avif', title:'Oiiaioooooiai Hachiware', author:'呼吸菌QAQ', info:'观看次数：43万次 · 4 个月前'},
     {jump:'play.html',avater:'images/videoavater/5.jpg', banner:'images/videobanner/5.avif', title:`"That was an order. Steiner's attack was an order"- Angry German Cat.Voice from movie Downfall(2004)`, author:'Whatever it is', info:'观看次数：1.1万次 · 2 个月前'},
-    {jump:'play.html',avater:'images/videoavater/6.jpg', banner:'images/videobanner/6.avif', title:`【甘城なつき】貓貓終於碰到會說日語的華人啦！超可愛（散裝日語ww）`, author:'Little dusk', info:'观看次数：20万次 · 7 个月前'},
+    {jump:'play2.html',avater:'images/videoavater/6.jpg', banner:'images/videobanner/6.avif', title:`【甘城なつき】貓貓終於碰到會說日語的華人啦！超可愛（散裝日語ww）`, author:'Little dusk', info:'观看次数：20万次 · 7 个月前'},
 ]
 const video_container = document.getElementById('video-list');
 
