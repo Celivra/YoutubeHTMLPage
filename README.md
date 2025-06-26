@@ -1,5 +1,4 @@
 # 仿YouTube网站
-> 已上传Github开源:https://github.com/Celivra/YoutubeHTMLPage
 
 ## 页面
 - ### 主页面
